@@ -1,7 +1,16 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 <div class="container-fluid">
-<div style="text-align:center">
+
+  <!-- Image and text -->
+<nav class="navbar navbar-light bg-faded">
+    <a class="navbar-brand" href="#">
+      <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      Bootstrap
+    </a>
+  </nav>
+
+  <div style="text-align:center">
 
 
 <div class="jumbotron">
@@ -11,7 +20,37 @@
 
 </div>
 
-<a routerLink="/royceyoutube">YouTube</a>
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #sidenav class="example-sidenav">
+
+        <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+
+        <a routerLink="/royceyoutube">YouTube</a>
+    </mat-sidenav>
+  
+    <div class="example-sidenav-content">
+      <button type="button" mat-button (click)="sidenav.open()">
+        Open sidenav
+      </button>
+    </div>
+  
+  </mat-sidenav-container>
+
+
+  <!-- primary content -->
 
 </div>
 
@@ -19,7 +58,7 @@
   <h3 class="card-header">About Me</h3>
   <div class="card-block">
     <h4 class="card-title">What's this?</h4>
-    <p class="card-text">A start of learning angular4 and angular4 js...</p>
+    <p class="card-text">A start of learning angular5...</p>
   </div>
 </div>
 

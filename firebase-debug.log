@@ -1,0 +1,76 @@
+[debug] [2017-11-08T02:12:21.490Z] ----------------------------------------------------------------------
+[debug] [2017-11-08T02:12:21.491Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Xaiyeon\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-11-08T02:12:21.491Z] CLI Version:   3.14.0
+[debug] [2017-11-08T02:12:21.491Z] Platform:      win32
+[debug] [2017-11-08T02:12:21.491Z] Node Version:  v8.9.0
+[debug] [2017-11-08T02:12:21.492Z] Time:          Tue Nov 07 2017 18:12:21 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-08T02:12:21.492Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-08T02:12:21.498Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-11-08T02:12:21.498Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Xaiyeon\Documents\5_AngularProjects\royceaone_page\royceaonepage
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-11-08T02:13:35.469Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-08T02:13:35.469Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/BUZIhUkc3NlF2Beuoq_TH_uH0NU397Xa6P_olEHRWFU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Nov 07 2017 18:13:35 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-08T02:13:35.810Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-08T02:13:35.817Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Tue Nov 07 2017 18:13:35 GMT-0800 (Pacific Standard Time)
+[debug] [2017-11-08T02:13:36.568Z] <<< HTTP RESPONSE 200
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[info] +  Database Rules for undefined have been downloaded to database.rules.json.
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Firestore Setup
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[info] +  Wrote functions/package.json
+[info] +  Wrote functions/index.js
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 

@@ -4,6 +4,11 @@ import { FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import {RouterModule} from '@angular/router'
 import { AppComponent } from './app.component';
+import { ViewEncapsulation } from '@angular/core';
+import { RoyceaYoutubeComponent } from './roycea-youtube/roycea-youtube.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import 'hammerjs';
 
 
 @NgModule({
@@ -12,7 +17,7 @@ import { AppComponent } from './app.component';
     RoyceaYoutubeComponent
   ],
   imports: [
-    BrowserModule, HttpModule, FormsModule,
+    BrowserModule, HttpModule, FormsModule, BrowserAnimationsModule, MatSidenavModule,
     RouterModule.forRoot([
       {
         path: 'royceyoutube',

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ViewEncapsulation } from '@angular/core';
+
+declare var module:any;
 
 @Component({
   selector: 'app-roycea-youtube',
